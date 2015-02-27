@@ -47,8 +47,9 @@ TARGET_KERNEL_SOURCE := kernel/lge/msm8974
 TARGET_KERNEL_ARCH := arm
 
 # Custom toolchains
-#TARGET_GCC_VERSION_ARM := 4.8
-TARGET_GCC_VERSION_EXP := 4.8
+TARGET_GCC_VERSION_EXP := 4.8-sm
+TARGET_GCC_VERSION_ARM := arm-eabi-4.9-ln
+TARGET_KERNEL_TC_SUFFIX := arm-cortex_a15-linux-gnueabihf-
 
 # Build optimizations
 OPT_MEMORY := true
