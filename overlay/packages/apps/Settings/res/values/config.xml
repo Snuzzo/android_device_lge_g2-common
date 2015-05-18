@@ -1,4 +1,6 @@
 <resources>
   <bool name="has_led_flash">true</bool>
   <bool name="config_show_volumeRockerWake">true</bool>
+  <!-- Allow Quickboot mode to be (en|dis)abled in development options-->
+  <bool name="configAllow_Quickboot">false</bool>
 </resources>
