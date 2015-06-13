@@ -161,7 +161,8 @@ PRODUCT_PACKAGES += \
     libaudio-resampler \
     libqcomvisualizer \
     libqcomvoiceprocessing \
-    libqcomvoiceprocessingdescriptors
+    libqcomvoiceprocessingdescriptors \
+    libqcompostprocbundle
 
 # Media
 PRODUCT_PACKAGES += \
