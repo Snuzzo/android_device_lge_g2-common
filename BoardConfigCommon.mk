@@ -42,6 +42,12 @@ BOARD_CUSTOM_BOOTIMG_MK := device/lge/g2-common/releasetools/mkbootimg.mk
 TARGET_KERNEL_SOURCE := kernel/lge/msm8974-caf
 TARGET_KERNEL_ARCH := arm
 
+# Build optimizations
+OPT_MEMORY := true
+TARGET_USE_O3 := true
+STRICT_ALIASING := true
+SUPPRES_UNUSED_WARNING := true
+
 # Audio
 BOARD_USES_ALSA_AUDIO:= true
 AUDIO_FEATURE_LOW_LATENCY_PRIMARY := true
